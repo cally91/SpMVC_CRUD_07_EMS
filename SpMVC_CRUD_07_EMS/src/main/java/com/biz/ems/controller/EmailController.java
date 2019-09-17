@@ -40,7 +40,7 @@ public class EmailController {
 		return new EmailVO();
 	}
 
-	@RequestMapping(value = "/lise",method = RequestMethod.POST)
+	@RequestMapping(value = "/list",method = RequestMethod.POST)
 	public String list(EmailVO emailVO,Model model) {
 		List<EmailVO> emailList = xMailService.emailList();
 		
