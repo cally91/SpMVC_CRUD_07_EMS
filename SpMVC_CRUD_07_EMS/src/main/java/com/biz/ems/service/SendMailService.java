@@ -105,6 +105,11 @@ public class SendMailService {
 		return ret;
 	}
 
+	public int countArticle(String search_option, String keyword) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 
 }

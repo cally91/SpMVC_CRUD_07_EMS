@@ -75,7 +75,7 @@ public class EmailController {
 		emailVO.setEms_file2(file_name2);
 		xMailService.sendMail(emailVO);
 		int ret =xMailService.insert(emailVO);
-		return "home";
+		return "redirect:/";
 		
 	}
 	@RequestMapping(value = "/view", method = RequestMethod.GET)
